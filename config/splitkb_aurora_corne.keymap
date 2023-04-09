@@ -13,12 +13,12 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        layer_3 {
             bindings = <&sl 3>;
             key-positions = <37 40>;
         };
 
-        new_combo {
+        double_shift {
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 35>;
         };
